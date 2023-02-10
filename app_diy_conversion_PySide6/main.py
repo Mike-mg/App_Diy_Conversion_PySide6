@@ -40,7 +40,7 @@ class Window(QMainWindow):
         self.button.clicked.connect(self.def_button)
 
         self.label_aroma = QLabel(self.central_area)
-        self.label_aroma.setText("Dodage Aroma")
+        self.label_aroma.setText("Dosage Aroma")
         self.label_aroma.setStyleSheet("border: 1px ridge white")
         self.label_aroma.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self.label_aroma.setGeometry(175, 200, 175, 25)
